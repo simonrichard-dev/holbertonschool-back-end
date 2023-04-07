@@ -15,11 +15,11 @@ if __name__ == "__main__":
     status = ''
     task_title = ''
     user_dict = {}
-    tasks_list = []
 
     for i in employees:
         username = i.get('username')
         id = i.get('id')
+        tasks_list = []
 
         for j in todos:
             if id == j.get('userId'):
