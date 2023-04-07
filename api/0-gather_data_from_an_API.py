@@ -34,4 +34,4 @@ if __name__ == "__main__":
         if id == i.get('userId'):
             if i.get('completed') is True:
                 task_completed = i.get('title')
-                print(f'     {task_completed}')
+                print(f'\t {task_completed}')
